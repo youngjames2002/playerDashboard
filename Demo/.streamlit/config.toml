@@ -1,0 +1,28 @@
+# Pascal dashboard theme — purple & pink 🦋
+# Chart mark colors live in testDashBoard.py (chart_colors / seed_perf_chart)
+# and were validated for contrast + colorblind separation on these surfaces.
+
+[theme]
+base = "light"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap, sans-serif"
+headingFont = "Quicksand:https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap, sans-serif"
+primaryColor = "#d6367f"
+backgroundColor = "#fdf5fa"
+secondaryBackgroundColor = "#f7e3f1"
+textColor = "#43203c"
+linkColor = "#8b2fc9"
+borderColor = "#eed0e5"
+dataframeBorderColor = "#eed0e5"
+baseRadius = "large"
+buttonRadius = "full"
+chartCategoricalColors = ["#7c3aed", "#d6367f", "#a855f7", "#ec4899"]
+
+[theme.dark]
+primaryColor = "#df4f9b"
+backgroundColor = "#211523"
+secondaryBackgroundColor = "#33203a"
+textColor = "#f3e3ee"
+linkColor = "#c084fc"
+borderColor = "#472c42"
+dataframeBorderColor = "#472c42"
+chartCategoricalColors = ["#9b78ea", "#df4f9b", "#b794f4", "#f472b6"]
