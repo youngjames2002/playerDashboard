@@ -70,7 +70,12 @@ st.write(f"average placement: {avg_placement} out of {avg_entrants}")
 # events entered over time
 
 # event history
+# each event and placement and SPR
+# list of sets played
 
 # are streaks interesting?
 # big fish filter
 # h2h stuff
+# should check old pgstats videos for ideas
+# include PR seasons ??
+# hardcode a best wins section?? - bit gay
